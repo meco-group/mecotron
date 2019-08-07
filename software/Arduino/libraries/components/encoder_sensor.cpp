@@ -18,7 +18,7 @@ bool EncoderSensor::init()
 int32_t EncoderSensor::readRawValue()
 {
 	_raw_value = _encoder.read();
-	_calibrated_value = _raw_value;
+//	_calibrated_value = _raw_value;
 	return _raw_value;
 }
 
@@ -26,7 +26,7 @@ int32_t EncoderSensor::readRawValue()
  * Reads the calibrated encoder value which is always equal to the raw value. Calling this function is less efficient than calling readRawValue(). This function is implemented for sake of completeness.
  */
 
-float EncoderSensor::readCalibratedValue()
-{
-	return this->readRawValue();
-}
+// float EncoderSensor::readCalibratedValue()
+// {
+// 	return this->readRawValue();
+// }

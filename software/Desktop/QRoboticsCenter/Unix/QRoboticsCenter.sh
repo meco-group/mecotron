@@ -1,5 +1,5 @@
 #!/bin/sh
-appname='QRoboticsCenter'
+appname='QRoboticsCenter_5_0_0_stable'
 
 dirname=`dirname $0`
 tmp="${dirname#?}"

@@ -1,0 +1,1 @@
+Controller enabled.-6630, 7614826, 64Front distance: 0.10 m.Side distance: 0.06 m. Pendulum reset.Pendulum top angle: -3.20 rad.

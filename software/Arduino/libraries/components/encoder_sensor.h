@@ -15,7 +15,7 @@ public:
 	bool init();
 
 	int32_t readRawValue();
-	float readCalibratedValue();
+	//float readCalibratedValue();
 };
 
 #endif //ENCODER_SENSOR_H

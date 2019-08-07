@@ -1,0 +1,1 @@
+Controller enabled.6037, 8049-520, 248Port 0: 4Front distance: 0.09 m.Side distance: 0.10 m. Pendulum reset.Pendulum top angle: 0.02 rad.

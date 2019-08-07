@@ -1,0 +1,1 @@
+Controller enabled.7515, 708877, 297 Front distance: 0.05 m.Port 0: 4Side distance: 0.05 m. Pendulum reset.Port 0: 4Pendulum top angle: 3.33 rad.
