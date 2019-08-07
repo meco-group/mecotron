@@ -15,7 +15,7 @@
 
 \title{\textbf{Platforms: parts list}}
 \date{\vspace{-5ex}}
-\pagenumbering{gobble} 
+\pagenumbering{gobble}
 
 \begin{document}
 
@@ -24,112 +24,84 @@
 \section{Mechanical parts}
 Table \ref{parts_general} comprises all the parts that are shared by the two types of platforms.
 \begin{table}[h]
-	\centering
-	\begin{tabular}{| c | l | c | l|}
-		\hline
-		Item No. & Description & Qty. & Remarks \\ \hline
-		1 & MDF lower frame basis & 1 & \footnotesize 3mm MDF\\ \hline
-		2 & MDF upper frame basis & 1 & \footnotesize 3mm MDF\\ \hline
-		3 & MDF motor slide & 2 & \footnotesize 3mm MDF\\ \hline
-		4 & MDF rear slide & 2 & \footnotesize 3mm MDF\\ \hline
-		5 & MDF fork & 2 & \footnotesize 3mm MDF, to lock MDF rear slide\\ \hline
-		6 & Spacer & 6 & \footnotesize M3x30mm\\ \hline
-		7 & Screw & 24 & \begin{minipage}{6cm}
-			\footnotesize M3x10mm; 12 for spacers, 4 for motors, 2 for number plate, 4 for Arduino, 2 for IR sensor
-		\end{minipage}\\ \hline
-		8 & Nut & 8 & \footnotesize M3; 2 for number plate, 4 for Arduino, 2 for IR sensor\\ \hline
-		9 & DC motor + gearbox + encoder & 2 & \footnotesize 6V, 210rpm\\ \hline
-		10 & Motor terminal connector & 2 & \\ \hline
-		11 & Zip tie & 2 & \footnotesize 100mm, to fix the motors to the lower frame\\ \hline
-		12 & Wheel hub & 2 & \footnotesize 4mm drill, 12mm hexagon\\ \hline
-		13 & Set screw for wheel hub & 2 & \\ \hline
-		14 & RC wheel & 2 & \footnotesize \diameter 65mm x 25mm \\ \hline
-		15 & Screw & 2 & \footnotesize M4x10mm; to fix the wheel to the hub\\ \hline
-		16 & Washer & 2 & \footnotesize M4; between wheel and M4 screw\\ \hline
-		17 & IR sensor & 1 & \footnotesize Sharp GP2Y0A41SK0F, 4-30cm\\ \hline
-		18 & IR sensor mounting bracket & 1 & \\ \hline
-		19 & IR sensor terminal connector & 1 & \\ \hline
-		20 & MDF IR sensor support & 1 & \\ \hline
-		21 & MDF number plate & 1 & \\ \hline
-		22 & Arduino MEGA 2560 & 1 & \\ \hline
-		23 & MEGA MECO breakout board & 1 & \footnotesize for details see Table \ref{parts_megameco}\\ \hline
-		24 & Power supply & 1 & \footnotesize 6V, 12W\\ \hline
-		25 & USB cable & 1 & \footnotesize male USB-1.0 type B to male USB-2.0 type A\\ \hline
-	\end{tabular}
-	\caption{Shared parts}\label{parts_general}
+ \centering
+ \begin{tabular}{| c | l | c | l|}
+  \hline
+  Item No. & Description                  & Qty. & Remarks                                                              \\ \hline
+  1        & MDF lower frame basis        & 1    & \footnotesize 3mm MDF                                                \\ \hline
+  2        & MDF upper frame basis        & 1    & \footnotesize 3mm MDF                                                \\ \hline
+  3        & MDF motor slide              & 2    & \footnotesize 3mm MDF                                                \\ \hline
+  4        & MDF rear slide               & 2    & \footnotesize 3mm MDF                                                \\ \hline
+  5        & MDF fork                     & 2    & \footnotesize 3mm MDF, to lock MDF rear slide                        \\ \hline
+  6        & Spacer                       & 6    & \footnotesize M3x30mm                                                \\ \hline
+  7        & Screw                        & 24   & \begin{minipage}{6cm}
+   \footnotesize M3x10mm; 12 for spacers, 4 for motors, 2 for number plate, 4 for Arduino, 2 for IR sensor
+  \end{minipage}                                            \\ \hline
+  8        & Nut                          & 8    & \footnotesize M3; 2 for number plate, 4 for Arduino, 2 for IR sensor \\ \hline
+  9        & DC motor + gearbox + encoder & 2    & \footnotesize 12V, 157rpm                                            \\ \hline
+  10       & Motor terminal connector     & 2    &                                                                      \\ \hline
+  11       & Zip tie                      & 2    & \footnotesize 100mm, to fix the motors to the lower frame            \\ \hline
+  12       & Wheel hub                    & 2    & \footnotesize 4mm drill, 12mm hexagon                                \\ \hline
+  13       & Set screw for wheel hub      & 2    &                                                                      \\ \hline
+  14       & RC wheel                     & 2    & \footnotesize \diameter 65mm x 25mm                                  \\ \hline
+  15       & Screw                        & 2    & \footnotesize M4x10mm; to fix the wheel to the hub                   \\ \hline
+  16       & Washer                       & 2    & \footnotesize M4; between wheel and M4 screw                         \\ \hline
+  17       & IR sensor                    & 1    & \footnotesize Sharp GP2Y0A41SK0F, 4-30cm                             \\ \hline
+  18       & IR sensor mounting bracket   & 1    &                                                                      \\ \hline
+  19       & IR sensor terminal connector & 1    &                                                                      \\ \hline
+  20       & MDF IR sensor support        & 1    &                                                                      \\ \hline
+  21       & MDF number plate             & 1    &                                                                      \\ \hline
+  22       & Arduino MEGA 2560            & 1    &                                                                      \\ \hline
+  23       & MEGA MECO breakout board     & 1    & \footnotesize for details see Table \ref{parts_megameco}             \\ \hline
+  24       & Power supply                 & 1    & \footnotesize 12V, 24W                                               \\ \hline
+  25       & USB cable                    & 1    & \footnotesize male USB-1.0 type B to male USB-2.0 type A             \\ \hline
+ \end{tabular}
+ \caption{Shared parts}\label{parts_general}
 \end{table}
 
 \newpage
 \noindent Table \ref{parts_swivel} comprises the parts that are additionally needed to build a swivel platform.
 \begin{table}[H]
-	\centering
-	\begin{tabular}{| c | l | c | l|}
-		\hline
-		Item No. & Description & Qty. & Remarks \\ \hline
-	 101 & Screw & 6 & \footnotesize M3x10mm; 2 for IR sensor, 4 for swivel caster wheel\\ \hline
-	 102 & Nut & 6 & \footnotesize M3; 2 for IR sensor, 4 for swivel caster wheel\\ \hline
-	 103 & Swivel caster wheel & 1 & \footnotesize \diameter25mm, overall height approx. 30mm\\ \hline
-	 104 & IR sensor & 1 & \footnotesize Sharp GP2Y0A41SK0F, 4-30cm\\ \hline
-	 105 & IR sensor mounting bracket & 1 & \footnotesize 90$^\circ$ angle\\ \hline
-	 106 & IR sensor terminal connector & 1 & \\ \hline
-	 107 & MDF IR sensor support & 1 & \\ \hline
-	\end{tabular}
-	\caption{Additional parts for swivel version}\label{parts_swivel}
+ \centering
+ \begin{tabular}{| c | l | c | l|}
+  \hline
+  Item No. & Description                  & Qty. & Remarks                                                           \\ \hline
+  101      & Screw                        & 6    & \footnotesize M3x10mm; 2 for IR sensor, 4 for swivel caster wheel \\ \hline
+  102      & Nut                          & 6    & \footnotesize M3; 2 for IR sensor, 4 for swivel caster wheel      \\ \hline
+  103      & Swivel caster wheel          & 1    & \footnotesize \diameter25mm, overall height approx. 30mm          \\ \hline
+  104      & IR sensor                    & 1    & \footnotesize Sharp GP2Y0A41SK0F, 4-30cm                          \\ \hline
+  105      & IR sensor mounting bracket   & 1    & \footnotesize 90$^\circ$ angle                                    \\ \hline
+  106      & IR sensor terminal connector & 1    &                                                                   \\ \hline
+  107      & MDF IR sensor support        & 1    &                                                                   \\ \hline
+ \end{tabular}
+ \caption{Additional parts for swivel version}\label{parts_swivel}
 \end{table}
 
 \noindent Table \ref{parts_pendulum} comprises the parts that are additionally needed to build a pendulum platform.
 \begin{table}[H]
-	\centering
-	\begin{tabular}{| c | l | c | l|}
-		\hline
-		Item No. & Description & Qty. & Remarks \\ \hline
-		201 & MDF pendulum rack & 1 & \footnotesize 2 A-shaped slides and a connecting plate\\ \hline
-		202 & MDF pendulum & 1 & \footnotesize 5mm MDF\\ \hline
-		203 & MDF fork & 6 & \footnotesize 3mm MDF, to lock the pendulum rack\\ \hline
-		204 & Potentiometer & 1 & \footnotesize Vishay 157B503MX\\ \hline
-		205 & Potentiometer terminal connector & 1 & \\ \hline
-		206 & Rear axle & 1 & \footnotesize \diameter4mm, 150mm\\ \hline
-		207 & Bearing & 2 & \footnotesize 4x7x2mm, fitted into bore of MDF rear slide\\ \hline
-		208 & Wheel hub & 2 & \footnotesize 4mm drill to 12mm hexagon\\ \hline
-		209 & Set screw & 2 & \footnotesize M4x6mm; for wheel hub\\ \hline
-		210 & RC wheel & 2 & \footnotesize \diameter 65mm x 25mm\\ \hline
-		211 & Screw & 2 & \footnotesize M4x10mm; to fix the wheel to the hub\\ \hline
-		212 & Washer & 2 & \footnotesize M4; between wheel and screw\\ \hline
-	\end{tabular}
-	\caption{Additional parts for pendulum version}\label{parts_pendulum}
+ \centering
+ \begin{tabular}{| c | l | c | l|}
+  \hline
+  Item No. & Description                      & Qty. & Remarks                                                   \\ \hline
+  201      & MDF pendulum rack                & 1    & \footnotesize 2 A-shaped slides and a connecting plate    \\ \hline
+  202      & MDF pendulum                     & 1    & \footnotesize 5mm MDF                                     \\ \hline
+  203      & MDF fork                         & 6    & \footnotesize 3mm MDF, to lock the pendulum rack          \\ \hline
+  204      & Potentiometer                    & 1    & \footnotesize Vishay 157B503MX                            \\ \hline
+  205      & Potentiometer terminal connector & 1    &                                                           \\ \hline
+  206      & Rear axle                        & 1    & \footnotesize \diameter4mm, 150mm                         \\ \hline
+  207      & Bearing                          & 2    & \footnotesize 4x7x2mm, fitted into bore of MDF rear slide \\ \hline
+  208      & Wheel hub                        & 2    & \footnotesize 4mm drill to 12mm hexagon                   \\ \hline
+  209      & Set screw                        & 2    & \footnotesize M4x6mm; for wheel hub                       \\ \hline
+  210      & RC wheel                         & 2    & \footnotesize \diameter 65mm x 25mm                       \\ \hline
+  211      & Screw                            & 2    & \footnotesize M4x10mm; to fix the wheel to the hub        \\ \hline
+  212      & Washer                           & 2    & \footnotesize M4; between wheel and screw                 \\ \hline
+ \end{tabular}
+ \caption{Additional parts for pendulum version}\label{parts_pendulum}
 \end{table}
 
 \newpage
 \section{MEGA MECO parts}
-Table \ref{parts_megameco} comprises the parts that are needed to build a MEGA MECO breakout board. Tolerances or voltage ratings are omitted if of no importance.
-\begin{table}[h]
-	\centering
-	\begin{tabular}{| c | l | c | l|}
-		\hline
-		Item No. & Description & Qty. & Remarks \\ \hline
-		301 & Printed circuit board & 1 & \footnotesize 98x52mm, 2 layers \\ \hline
-		302 & DIL socket & 1 & \footnotesize 2x8 pins, 2.54mm grid \\ \hline
-		303 & Tactile switch & 1 & \footnotesize 6x6mm \\ \hline
-		304& LED & 1 & \footnotesize 5mm, 20mA, green, power indicator\\ \hline
-		305& LED & 2 & \footnotesize 3mm, 10mA, red, status/debug LEDs\\ \hline
-		306& LED & 2 & \footnotesize 3mm, 10mA, red, status/debug LEDs\\ \hline
-		307& Capacitor & 1 & \footnotesize 5mm electrolytic, 47\textmu F, 25V\\ \hline
-		308& Capacitor & 1 & \footnotesize 5mm electrolytic, 100\textmu F, 16V\\ \hline
-		309& Capacitor & 1 & \footnotesize 2.5mm multilayer ceramic, 0.1\textmu F, 50V\\ \hline
-		310& Resistor & 1 & \footnotesize 1k\ohm, 250mW\\ \hline
-		311& Resistor & 2 & \footnotesize 330\ohm, 250mW\\ \hline
-		312& Header & 2 & \footnotesize 1x6 pins, 2.54mm grid, for motor connection\\ \hline
-		313& Receptacle set & 1 & \begin{minipage}{7cm}
-			\footnotesize set for Arduino breakout boards: 1x 2x18, 5x 1x8, 1x 1x6 pins, 2.54mm grid
-		\end{minipage}\\ \hline
-		314& Receptacle & 1 & \footnotesize 1x4 pins, 2.54mm grid, for bluetooth socket\\ \hline
-		315& Pin header & 11 & \footnotesize 1x3 pins, 2.54mm grid\\ \hline
-		316& Pin header & 2 & \footnotesize 1x4 pins, 2.54mm grid\\ \hline
-		317& Pin header & 1 & \footnotesize 1x2 pins, 2.54mm grid\\ \hline
-		318& Quadruple half-H driver & 1 & \footnotesize L293D, DIL package, from ST or TI\\ \hline
-		319& Jumper & 6 & \footnotesize 2.54mm grid\\ \hline
-	\end{tabular}
-	\caption{Parts for the MEGA MECO breakout board}\label{parts_megameco}
-\end{table}
+
+Refer to the BOM/parts list from Eagle schematics.
 
 \end{document}
