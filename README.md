@@ -8,7 +8,7 @@ The designed platforms are flexible, allowing for numerous extensions and variat
 
 The platforms are furthermore easy to set up and administer using the supporting material.
 
-*These set-ups were presented at the demonstrator sessions at the 20th IFAC World Congress 2017 (see [the accompanying paper](https://www.sciencedirect.com/science/article/pii/S240589631732325X) and the video below).*
+*These set-ups were presented at the demonstrator sessions at the 20th IFAC World Congress (Toulouse, 2017); see [the accompanying paper](https://www.sciencedirect.com/science/article/pii/S240589631732325X) and the video below.*
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=29Rf3V9_PGU">
